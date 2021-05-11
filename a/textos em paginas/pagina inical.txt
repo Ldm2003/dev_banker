@@ -1,0 +1,31 @@
+*/functions/*
+HOME
+SERVICES
+CHAT
+NOTIFICATIONS
+ACCONT
+
+*/Notification/*
+Welcome to dev_bunker. Here we can help you with services about freelance, in all types for Programming language and formatation.
+
+*/First message/*
+*/Welcome to dev_bunker/*
+
+*/How this site works/*
+How this site works?
+This site has purpose to decrease the distance between in employees and employer,  thus facilitating the search for employees for services opened in market.
+
+*/Last services /*
+So that you can see the latest services posted, click here.
+
+*/Talk with us/*
+Contact us 
+Are you need help? Talk with us!
+Click here, to open one chat.
+
+*/footer/*
+Twitter: Gabriel
+Twitter: Leonardo
+
+Facebook: Gabriel
+Facebook: Leonardo
