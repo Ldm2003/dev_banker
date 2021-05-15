@@ -1,0 +1,203 @@
+/* Responsive */
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+}
+
+
+/* interface formatation */
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    background-color: #5A657D;
+}
+
+.text {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #fff;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+.upper {
+    background-color: #4e6496;
+}
+
+.welcome {
+    padding: 0px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.logomes {
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: -20px; 
+    padding-top: 0px;
+    font-size: 20px;
+    margin-left: 2px;
+    font-weight: bold;
+    border-bottom: black solid 0.5px;
+}
+
+.latest {
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.talkus{
+    padding: 0px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color:cadetblue ;
+}
+
+div#interface {
+    width: 100%;
+    margin-right: 40px;
+    margin-top: -2px;
+}
+
+div#cabecalho {
+    margin-top: -30px;
+    height: auto;
+    background-color: #344263;
+    color: #fff;
+    display: block;
+}
+
+.txttalk {
+    padding: 0px;
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+/* How it works site */
+
+div#meswork {
+    color: #fff;
+    background-color: #3c4049;
+    padding-top: -5px;
+    margin-top: -20px;
+    text-align: center;
+    display: block;
+}
+
+.work {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txtwork {
+    padding: 0px;
+    margin-top: -20px;
+}
+
+.firstpost {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+}
+
+.coluna {
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Register pag inicial */
+
+div#register-home {
+    font-size: 18px;
+    background-color: #7b8396;
+    color: #fff;
+    margin-top: -20px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: black solid 0.1px;
+    display: block;
+}
+
+/* jobs */
+div#job {
+    text-align: center;
+    padding-bottom: 3px;
+    border-bottom: black solid 0.1px;
+}
+
+.job-p1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.job-p2{
+    font-size: 15px;
+}
+
+/* services */
+
+div#last-services {
+    background-color: #6C7996;
+    color: #fff;
+    margin-top: -20px;
+    margin-left: 0px;
+    display: block;
+    border-bottom: black solid 0.1px;
+    text-align: center;
+}
+
+.latest {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+div#contact {
+    display: block;
+    background-color: #5A657D;
+    color: #fff;
+    margin-top: -40px;
+    text-align: center;
+}
+
+/* change footer */
+
+div#footer-back {
+    border-top: black solid 0.5px;
+    background-color: #43404A;
+    color: #fff;
+    text-align: center;
+    font-family: Italic, sans-serif;
+    display: block;
+}

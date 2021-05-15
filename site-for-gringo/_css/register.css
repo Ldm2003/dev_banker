@@ -1,0 +1,23 @@
+/* Form in register */
+div#button {
+    background-color: #7b8396;
+    text-align: right;
+}
+
+fieldset#usuario {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* confirm register */
+div#register-confirm {
+    text-align: center;
+    background-color: #4e6494;
+    padding: 1px 1px 1px 1px;
+    border: black solid 2px;
+    display: block;
+}
+
+.txt-confirm {
+    font-size: 15px;
+}

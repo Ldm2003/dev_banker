@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="_css/login.css">
+    <link rel="stylesheet" href="_css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="javascript/login.js"></script>
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <div id="form-login">
+        <i class="material-icons large">account_box</i>
+        <p class="login">Login</p>
+        <script>
+            function login() {
+                var name = document.forma.name.value;
+                var password = document.forma.password.value;
+
+                if (name == null || name == "") {
+                    alert("[ERROR] COMPLETE AGAIN!");
+                    return false;
+                } else if (password.length == 1) {
+                    alert("Password must be at least 12 characters long.");
+                    return false;
+                }
+            }
+        </script>
+        <form name="forma" method="post" action="account.html" onsubmit="return login()">
+            <input type="text" name="name" placeholder="Your username" maxlength="20"></br>
+            <input type="password" name="password" placeholder="Your password">
+
+            <input type="submit" id="button" value="Access">
+
+            <p class="account">Do not have an account yet? <a href="register.html">Register here</a>.</p>
+        </form>
+    </div>
+</body>
+
+</html>

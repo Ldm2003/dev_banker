@@ -1,0 +1,41 @@
+div#talk {
+    display: block;
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+form#contact {
+    display: block;
+    text-align: justify;
+}
+
+input {
+    float: left;
+}
+
+.talkcontact {
+    border-top: black solid 0.8px;
+}
+
+.txtcontact {
+    border-bottom: black solid 0.8px;
+}
+
+div#botao {
+    text-align: right;
+}
+
+/* Message after */
+div#messageafter {
+    display: block;
+    color: #fff;
+    margin-top: -10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.mesafter {
+    border-bottom: black solid 0.8px;
+}

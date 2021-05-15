@@ -8,14 +8,17 @@
 </head>
 
 <body>
+  <script src="javascript/materialize.min.js"></script>
+  <script src="javascript/home.js"></script>
+  <script src="javascript/jquery-3.6.0.min.js"></script>
+
     <div id="interface">
         <!-- High-ground img -->
         <nav class="upper">
             <div class="nav-wrapper">
-              <a href="site.html" class="brand-logo">Types</a>
+              <a href="site.html" class="brand-logo">dev</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="site.html"><i class="material-icons" title="Home">home</i></a></li>
-                <li><a href="chat.html"><i class="material-icons" title="Chat">chat</i></a></li>
                 <li><a href="service.html"><i class="material-icons" title="Services">room_service</i></a></li>
                 <li><a href="account.html"><i class="material-icons" title="Account">person</i></a></li>
                 <li><a href="talkus.html"><i class="material-icons" title="Contact us">phone_in_talk</i></a></li>
@@ -25,7 +28,7 @@
         <div id="cabecalho">
             <!-- First message -->
             <p class="welcome">
-                Welcome to dev_banker
+                <h4 class="text">Welcome to dev_banker</h4>
             </p>
             
             <!-- Second message -->
@@ -112,30 +115,46 @@
               <p class="latest">
                   You can see the latest posts
               </p>
-              <p class="latest-p2">
-                HERE GO ONE CARD
-              </p>
-          </div>
-
+              <div class="carousel carousel-slider center">
+                <div class="carousel-fixed-item center">
+                  <a class="btn waves-effect white grey-text darken-text-2" href="service.html">View</a>
+                </div>
+                <div class="carousel-item red white-text" href="#one!">
+                  <h2>First Panel</h2>
+                  <p class="white-text">This is your first panel</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                  <h2>Second Panel</h2>
+                  <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                  <h2>Third Panel</h2>
+                  <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                  <h2>Fourth Panel</h2>
+                  <p class="white-text">This is your fourth panel</p>
+                </div>
+              </div>
+            </div>
           <div id="job">
             <p class="job-p1">
               Are you ready to find the perfect freelancer for your job?
             </p>
             <button class="job-p2">
-              <a class="waves-effect waves-light btn-small">
+              <a class="waves-effect waves-light btn-small" href="service.html">
               <i class="material-icons left">cloud</i><a href="service.html">
                 Post a job</a></a>
             </button>
           </div>
-          </div>
-
+        </div>
             <!-- Talk with us -->
             <div id="contact">
               <p class="talkus">
                   Contact us
               </p>
               <p class="txttalk">
-                  Are you need help? Talk with us! <a href="chat.html">Click here</a>, to open one chat.
+                  Are you need help? Talk with us! <a href="talkus.html">Click here</a>, to open a form.
               </p>
            </div>
         </div>
@@ -152,5 +171,6 @@
               </footer>
         </div>
     </div>
+    <script src="home.js"></script>
  </body>
 </html>
